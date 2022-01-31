@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>TodoList</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+  <div class="tm-page-container mx-auto">
+    <header class="tm-header text-center">
+      <h1 class="tm-title text-uppercase">Todolist</h1>
+    </header>
+
+    <section class="tm-section">
+      <div class="tm-content-container">
+        <form id="task-form">
+          <div class="tm-content">
+            <input type="text"  class="tm-page-title" id="task" autocomplete="off">
+            <button type="button" class="btn btn-dark" id="addbtn">Add</button>
+          </div>
+        </form>
+        <ul class="collection"></ul>
+        <button type="button" class="btn btn-danger" id="clr">Clear</button>
+        
+      </div>
+    </section>
+  </div>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
